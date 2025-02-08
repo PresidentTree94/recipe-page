@@ -152,6 +152,10 @@ a:hover {
 }
 
 @media (width < 45.875rem /*734px*/) {
+  main {
+    padding: 0;
+  }
+  
   section {
     padding: 0 0 1.875rem; /*30px*/
   }
