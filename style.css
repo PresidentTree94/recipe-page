@@ -15,18 +15,14 @@
   --walnutBrown: rgb(95, 87, 78);
 }
 
-html, body {
-  min-height: 100%;
-}
-
 body {
-  min-height: 100svh;
   font-family: "Outfit", serif;
   font-size: 1rem;
   display: grid;
   justify-items: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
+  overflow: auto;
 }
 
 main {
