@@ -12,8 +12,8 @@ As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.i
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/recipe-page-Jdvqz8aFNJ)
+- Live Site URL: [GitHub Page](https://presidenttree94.github.io/recipe-page/)
 
 ## Author
 
