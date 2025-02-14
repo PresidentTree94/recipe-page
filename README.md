@@ -19,4 +19,3 @@ As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.i
 
 - GitHub Profile: [PresidentTree94](https://github.com/PresidentTree94)
 - Frontend Mentor Profile: [PresidentTree94](https://www.frontendmentor.io/profile/PresidentTree94)
-- CodePen Profile: [PresidentTree94](https://codepen.io/PresidentTree94)
