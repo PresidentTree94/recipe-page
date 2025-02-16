@@ -16,8 +16,7 @@
 }
 
 html, body {
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: auto;
 }
 
 body {
@@ -35,6 +34,7 @@ main {
   opacity: 0;
   animation: fadeUp 1s ease forwards;
   padding: 2.5rem 0; /*40px*/
+  overflow: hidden;
 }
 
 @keyframes fadeUp {
