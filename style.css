@@ -15,10 +15,6 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   font-family: "Outfit", serif;
   font-size: 1rem;
@@ -26,7 +22,6 @@ body {
   justify-items: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
-  min-height: 100%;
   overflow: auto;
 }
 
