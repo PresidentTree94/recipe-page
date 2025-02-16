@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow: auto;
+}
+
 body {
   font-family: "Outfit", serif;
   font-size: 1rem;
@@ -22,7 +26,6 @@ body {
   justify-items: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
-  overflow: auto;
 }
 
 main {
@@ -31,6 +34,7 @@ main {
   opacity: 0;
   animation: fadeUp 1s ease forwards;
   padding: 2.5rem 0; /*40px*/
+  overflow: hidden;
 }
 
 @keyframes fadeUp {
