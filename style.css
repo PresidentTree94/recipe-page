@@ -15,8 +15,8 @@
   box-sizing: border-box;
 }
 
-html, body {
-  overflow: auto;
+html {
+  height: 100%;
 }
 
 body {
@@ -26,6 +26,8 @@ body {
   justify-items: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
+  min-height: 100%;
+  overflow: auto;
 }
 
 main {
