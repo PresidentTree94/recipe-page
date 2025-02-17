@@ -22,11 +22,12 @@ body {
   justify-items: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
+  min-width: 20rem;
   overflow: auto;
 }
 
 main {
-  min-width: min(20rem, 100%); /*320px*/
+  min-width: 20rem; /*320px*/
   max-width: 45.875rem; /*734px*/
   opacity: 0;
   animation: fadeUp 1s ease forwards;
