@@ -22,7 +22,6 @@ body {
   justify-items: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
-  min-width: 20rem;
   overflow: auto;
 }
 
