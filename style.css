@@ -18,10 +18,10 @@
 body {
   font-family: "Outfit", serif;
   font-size: 1rem;
-  display: flex;
-  justify-content: center;
-  /*display: grid;
-  justify-items: center;*/
+  /*display: flex;
+  justify-content: center;*/
+  display: grid;
+  justify-items: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
 }
