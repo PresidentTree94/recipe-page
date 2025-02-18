@@ -28,7 +28,7 @@ body {
 
 main {
   width: min(100%, 45.875rem); /*734px*/
-  margin: 5% /*2.5rem*/ auto;
+  margin: 5vw /*2.5rem*/ auto;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
   /*padding: 2.5rem 0;*/ /*40px*/
