@@ -28,7 +28,7 @@ body {
 
 main {
   width: min(100%, 45.875rem); /*734px*/
-  margin: calc(2.5rem - (2.5rem * ((45.875rem - 100vw) / 45.875rem))) /*2.5rem*/ auto;
+  margin: calc(2.5rem - (2.5rem * ((45.875rem - 100vw) / 45.875))) /*2.5rem*/ auto;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
   /*padding: 2.5rem 0;*/ /*40px*/
