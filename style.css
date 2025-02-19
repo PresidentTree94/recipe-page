@@ -93,9 +93,6 @@ li {
 
 p, li {
   line-height: 150%;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
 }
 
 aside {
@@ -173,4 +170,8 @@ a:hover {
   header, article, aside {
     margin: 0 1.875rem; /*30px*/
   }
+}
+
+@media (width < 16.5rem /*264px*/) {
+  
 }
