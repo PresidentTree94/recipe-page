@@ -27,7 +27,8 @@ body {
 }
 
 main {
-  width: min(100%, 45.875rem); /*734px*/
+  min-width: 16.5rem; /*264px*/
+  max-width: 45.875rem; /*734px*/
   margin: clamp(0rem, calc((100vw - 45.875rem) / 2), 2.5rem) auto;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
@@ -170,8 +171,4 @@ a:hover {
   header, article, aside {
     margin: 0 1.875rem; /*30px*/
   }
-}
-
-@media (width < 16.5rem /*264px*/) {
-  
 }
