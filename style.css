@@ -18,13 +18,12 @@
 body {
   font-family: "Outfit", serif;
   font-size: 1rem;
-  /*display: flex;
+  display: flex;
   justify-content: center;
-  display: grid;
+  /*display: grid;
   justify-items: center;*/
   background-color: var(--almond);
   color: var(--walnutBrown);
-  overflow: auto;
 }
 
 main {
