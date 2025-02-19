@@ -94,7 +94,8 @@ li {
 p, li {
   line-height: 150%;
   hyphens: auto;
-  hyphenate-limit-chars: 10;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 aside {
