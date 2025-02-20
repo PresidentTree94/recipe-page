@@ -18,22 +18,18 @@
 body {
   font-family: "Outfit", serif;
   font-size: 1rem;
-  /*display: flex;
-  justify-content: center;*/
-  display: grid;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
   overflow-x: auto;
 }
 
 main {
-  min-width: 16.5rem; /*264px*/
   max-width: 45.875rem; /*734px*/
   margin: clamp(0rem, calc((100vw - 45.875rem) / 2), 2.5rem) auto;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
-  /*padding: 2.5rem 0;*/ /*40px*/
 }
 
 @keyframes fadeUp {
