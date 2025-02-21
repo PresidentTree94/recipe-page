@@ -28,7 +28,7 @@ body {
 main {
   min-width: 16.5rem; /*264px*/
   max-width: 45.875rem; /*734px*/
-  padding: 0;
+  padding: 1rem;
   margin: clamp(0rem, calc((100vw - 45.875rem) / 2), 2.5rem) auto;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
