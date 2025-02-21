@@ -23,12 +23,13 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  width: 100%;
+  max-width: 100%;
   overflow: hidden;
 }
 
 main {
   min-width: 16.5rem; /*264px*/
+  width: 100%;
   max-width: 45.875rem; /*734px*/
   margin: clamp(0rem, calc((100vw - 45.875rem) / 2), 2.5rem) auto;
   opacity: 0;
