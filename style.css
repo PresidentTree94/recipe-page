@@ -20,6 +20,7 @@ body {
   font-size: 1rem;
   background-color: var(--almond);
   color: var(--walnutBrown);
+  overflow: hidden;
 }
 
 .container {
@@ -27,7 +28,6 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  overflow: hidden;
 }
 
 main {
