@@ -22,14 +22,13 @@ body {
   justify-content: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
-  overflow: hidden;
 }
 
 main {
   min-width: 16.5rem; /*264px*/
   max-width: 45.875rem; /*734px*/
   margin: clamp(0rem, calc((100vw - 45.875rem) / 2), 2.5rem) auto;
-  text-align: center;
+  overflow: hidden;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
 }
@@ -45,7 +44,6 @@ section {
   border-radius: 1.25rem; /*20px*/
   display: flex;
   flex-direction: column;
-  text-align: left;
 }
 
 img {
