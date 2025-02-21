@@ -22,6 +22,7 @@ body {
   justify-content: center;
   background-color: var(--almond);
   color: var(--walnutBrown);
+  overflow: hidden;
 }
 
 main {
