@@ -20,12 +20,12 @@ body {
   font-size: 1rem;
   background-color: var(--almond);
   color: var(--walnutBrown);
-  overflow: hidden;
 }
 
 .container {
   max-width: min(100%, 45.875rem);
   margin: 0 auto;
+  overflow: hidden;
 }
 
 main {
@@ -33,7 +33,6 @@ main {
   /*max-width: 45.875rem;*/ /*734px*/
   min-width: 16.5rem;
   margin: clamp(0rem, calc((100vw - 45.875rem) / 2), 2.5rem) auto;
-  overflow: hidden;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
 }
