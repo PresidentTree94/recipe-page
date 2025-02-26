@@ -32,7 +32,7 @@ body {
 
 main {
   margin: clamp(0rem, calc((100vw - 45.875rem) / 2), 2.5rem) auto;
-  overflow-y: visible;
+  overflow-y: hidden;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
 }
