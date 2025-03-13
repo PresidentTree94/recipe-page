@@ -151,7 +151,7 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (width < 45.875rem /*734px*/) {
+@media (width < 45.875rem) { /*734px*/
   main {
     margin: 0;
   }
