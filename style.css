@@ -9,6 +9,17 @@
   --walnutBrown: rgb(95, 87, 78);
 }
 
+.altMode {
+  --almond: rgb(193, 180, 166);
+  --white: rgb(48, 45, 44);
+  --jet: rgb(255, 255, 255);
+  --chestnut: rgb(183, 120, 100);
+  --lavenderBlush: rgb(123, 40, 79);
+  --murrey: rgb(255, 245, 250);
+  --timberWolf: rgb(95, 87, 78);
+  --walnutBrown: rgb(228, 222, 216);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +39,14 @@ body {
   display: flex;
   justify-content: center;
   overflow: hidden;
+}
+
+#toggle {
+  background-color: var(--murrey);
+}
+
+svg {
+  fill: var(--lavenderBlush);
 }
 
 main {

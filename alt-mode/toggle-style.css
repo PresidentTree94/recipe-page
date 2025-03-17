@@ -1,0 +1,25 @@
+#toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+#toggle:hover {
+  cursor: pointer;
+}
+
+#toggle:active {
+  transform: scale(0.9);
+}
+
+svg {
+  height: 1.75rem;
+}
