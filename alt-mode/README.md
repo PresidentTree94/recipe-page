@@ -8,7 +8,7 @@ These are the instructions for how to use Light/Dark Mode in a project. The scri
 
 ## Steps
 1. Add a `<link>` to the HTML to the path of `toggle-style.css`, under the initial stylesheet.
-2. Add a `<script>` to the HTML to the path of `toggle.js`, just before the closing tag of the `body`.
+2. Add a `<script>` to the HTML to the path of `toggle.js`, preferably below the stylesheets for organization.
 3. Add `<div id="toggle"></div>` to the HTML, where it can be placed in the top-right of the page.
 4. Add a `data-default` attribute to `#toggle`, and set it to "sun" or "moon."
 5. Assign colors to `#toggle` and the `svg` in the CSS.
