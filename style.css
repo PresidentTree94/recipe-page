@@ -1,0 +1,170 @@
+:root {
+  --almond: rgb(243, 230, 216);
+  --white: rgb(255, 255, 255);
+  --jet: rgb(48, 45, 44);
+  --chestnut: rgb(133, 70, 50);
+  --lavenderBlush: rgb(255, 245, 250);
+  --murrey: rgb(123, 40, 79);
+  --timberWolf: rgb(228, 222, 216);
+  --walnutBrown: rgb(95, 87, 78);
+}
+
+.altMode {
+  --almond: rgb(193, 180, 166);
+  --white: rgb(48, 45, 44);
+  --jet: rgb(255, 255, 255);
+  --chestnut: rgb(183, 120, 100);
+  --lavenderBlush: rgb(123, 40, 79);
+  --murrey: rgb(255, 245, 250);
+  --timberWolf: rgb(95, 87, 78);
+  --walnutBrown: rgb(228, 222, 216);
+}
+
+body {
+  font-family: "Outfit", serif;
+  font-size: 1rem;
+  background-color: var(--almond);
+  color: var(--walnutBrown);
+}
+
+.container {
+  max-width: min(100%, 45.875rem); /*734px*/
+}
+
+#toggle {
+  background-color: var(--murrey);
+}
+
+svg {
+  fill: var(--lavenderBlush);
+}
+
+main {
+  margin: clamp(0rem, calc((100vw - 45.875rem) / 2), 2.5rem) auto;
+  opacity: 0;
+  animation-name: fadeUp;
+}
+
+section {
+  background-color: var(--white);
+  padding: 2.5rem; /*40px*/
+  border-radius: 1.25rem; /*20px*/
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.625rem; /*10px*/
+}
+
+h1, h2 {
+  font-family: "Young Serif", serif;
+}
+
+h1 {
+  color: var(--jet);
+  font-size: 2.5rem; /*40px*/
+  font-weight: 400;
+  margin: 2rem 0 1rem; /*32px*/
+}
+
+h2 {
+  font-size: 1.75rem; /*28px*/
+  font-weight: 400;
+  margin: 1.875rem 0 1.125rem; /*30px 18px*/
+}
+
+h3 {
+  font-size: 1.25rem; /*20px*/
+  font-weight: 600;
+}
+
+header p {
+  margin-bottom: 2rem; /*32px*/
+}
+
+article p {
+  margin-bottom: 0.75rem; /*12px*/
+}
+
+ul, ol {
+  margin: 0.875rem 0 0 1rem; /*14px*/
+}
+
+li {
+  margin: 0.5rem 0 0 0.75rem; /*8px 12px*/
+  padding-left: 0.875rem; /*14px*/
+}
+
+p, li {
+  line-height: 150%;
+}
+
+aside {
+  background-color: var(--lavenderBlush);
+  padding: 1.5rem; /*24px*/
+  border-radius: 0.625rem; /*10px*/
+}
+
+h3, aside li::marker {
+  color: var(--murrey);
+}
+
+.list {
+  border-bottom: 1px solid var(--timberWolf);
+  padding-bottom: 2rem; /*32px*/
+}
+
+.list li::marker {
+  font-weight: 600;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+span, .values b {
+  border-bottom: 1px solid var(--timberWolf);
+   padding: 0.875rem; /*14px*/
+}
+
+span:last-of-type, .values b:last-of-type {
+  border: none;
+}
+
+h2, .values b, .list li::marker, a {
+  color: var(--chestnut);
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: var(--murrey);
+}
+
+@media (width < 45.875rem) { /*734px*/
+  main {
+    margin: 0;
+  }
+  
+  section {
+    padding: 0 0 1.875rem; /*30px*/
+  }
+  
+  h1 {
+    font-size: 2.3125rem; /*37px*/
+    line-height: 100%;
+  }
+  
+  section, img {
+    border-radius: 0;
+  }
+
+  header, article, aside {
+    margin: 0 1.875rem; /*30px*/
+  }
+}
